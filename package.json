@@ -6,6 +6,7 @@
   "author": "Bonani Brian Wogqoyi",
   "license": "MIT",
   "scripts": {
+    "test": "ts-node -r esm src\\index.js",
     "start": "node -r esm src\\index.js",
     "install": "sudo apt-get install wkhtmltopdf && npm install -g typescript"
   },
@@ -13,12 +14,13 @@
     "esm": "^3.2.25",
     "handlebars": "^4.7.6",
     "polka": "^0.5.2",
-    "typescript": "^3.9.5",
     "wkhtmltopdf": "^0.3.4",
     "yenv": "^2.1.1"
   },
   "devDependencies": {
     "@types/node": "^14.0.13",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
   }
 }
