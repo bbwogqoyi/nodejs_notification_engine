@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "esm": "^3.2.25",
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "polka": "^0.5.2",
     "wkhtmltopdf": "^0.3.4",
     "yenv": "^2.1.1"
